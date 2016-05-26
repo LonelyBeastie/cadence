@@ -1,3 +1,60 @@
-body{
-  background-image: url("/img/background MEDIUM.jpg");
+@font-face {
+	font-family: SerifRom;
+	src: url("/fonts/SerifRom");
 }
+@font-face {
+	font-family: MyriadPro-Regular;
+	src: url("/fonts/MyriadPro-Regular.otf");
+}
+.img-logo{ padding-top: 20px; }
+.main-name{ font-family: MyriadPro-Regular; }
+.header-blue-bar{
+  background-color: #2F4A64;
+  padding-top: 1px;
+  padding-bottom: 12px;
+}
+h3.add-tel{
+  color: white;
+  font-family: SerifRom;
+}
+/*pic as background*/
+.background-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*** Row stuff ***/
+/*picture*/
+.wood{background-image: url("/img/background MEDIUM.jpg");}
+.main-building{background-image: url("/img/main-building.jpeg");}
+.woman-pool{background-image: url("/img/woman-pool.jpg");}
+.band{background-image: url("/img/band.jpg");}
+/*end pictures*/
+/*row pad*/
+.row-pad{padding-top: 15px;}
+.row-pad-big{padding-top: 30px;}
+.row-pad-bottom{padding-bottom: 20px;}
+/*height*/
+.half-big{ height: 215px; }
+.big{ height: 415px; }
+/* colors box */
+.brown{ background-color: #6D4B2D;}
+.light-green{ background-color: #91D2A4;}
+.orange{ background-color: #AC582E;}
+.blue{ background-color: #2F4A64;}
+/*text colors*/
+.brown-text{ color: #6D4B2D;}
+.light-green-text{ color: #91D2A4;}
+.orange-text{ color: #AC582E;}
+.blue-text{ color: #2F4A64;}
+
+.row-text{ color: white; }
+.box-o-text{
+  height: 350px;
+  width: 350px;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+/*footer stuff*/
+footer{ height: 80px; }
+.footer-pad{padding-top: 25px;}
