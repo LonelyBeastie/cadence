@@ -10,7 +10,7 @@ title: Cadence
 email: jacobsiddall@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A site for Cadence
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/cadence" # the subpath of your site, e.g. /blog
 url: "http://tbd.com" # the base hostname & protocol for your site
 twitter_username: jjsiddall
 github_username:  jjsiddall

@@ -1,10 +1,10 @@
 @font-face {
 	font-family: SerifRom;
-	src: url("/fonts/SerifRom");
+	src: url("../fonts/SerifRom");
 }
 @font-face {
 	font-family: MyriadPro-Regular;
-	src: url("/fonts/MyriadPro-Regular.otf");
+	src: url("../fonts/MyriadPro-Regular.otf");
 }
 .img-logo{ padding-top: 20px; }
 .main-name{ font-family: MyriadPro-Regular; }
@@ -25,18 +25,18 @@ h3.add-tel{
 }
 /*** Row stuff ***/
 /*picture*/
-.wood{background-image: url("/img/background MEDIUM.jpg");}
+.wood{background-image: url("../img/background MEDIUM.jpg");}
 
-.outside{background-image: url("/img/the-cadence-outside.jpeg");}
-.clubhouse{background-image: url("/img/the-cadence-clubhouse.jpg");}
-.pool{background-image: url("/img/the-cadence-pool.jpg");}
-.unit{background-image: url("/img/the-cadence-unit.jpg");}
-.bathroom{background-image: url("/img/the-cadence-bathroom.jpg");}
+.outside{background-image: url("../img/the-cadence-outside.jpeg");}
+.clubhouse{background-image: url("../img/the-cadence-clubhouse.jpg");}
+.pool{background-image: url("../img/the-cadence-pool.jpg");}
+.unit{background-image: url("../img/the-cadence-unit.jpg");}
+.bathroom{background-image: url("../img/the-cadence-bathroom.jpg");}
 
-.woman-pool{background-image: url("/img/woman-pool.jpg");}
-.band{background-image: url("/img/band.jpg");}
-.yoga{background-image: url("/img/yoga.jpg");}
-.coffee{background-image: url("/img/coffee.jpg");}
+.woman-pool{background-image: url("../img/woman-pool.jpg");}
+.band{background-image: url("../img/band.jpg");}
+.yoga{background-image: url("../img/yoga.jpg");}
+.coffee{background-image: url("../img/coffee.jpg");}
 /*end pictures*/
 /*row pad*/
 .row-pad{padding-top: 15px;}
