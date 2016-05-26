@@ -3,24 +3,54 @@ layout: default
 title: gallery
 page_name: gallery
 ---
-<div class="row row-pad">
-  <div class="col-md-6 col-md-offset-3">
-    <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
-        <li data-thumb="img/gallery/thumb/the-cadence-outside.jpeg">
-            <img src="img/gallery/the-cadence-outside.jpeg" />
-        </li>
-        <li data-thumb="img/gallery/thumb/the-cadence-pool.jpg">
-            <img src="img/gallery/the-cadence-pool.jpg" />
-        </li>
-        <li data-thumb="img/gallery/thumb/the-cadence-unit.jpg">
-            <img src="img/gallery/the-cadence-unit.jpg" />
-        </li>
-        <li data-thumb="img/gallery/thumb/the-cadence-bathroom.jpg">
-            <img src="img/gallery/the-cadence-bathroom.jpg" />
-        </li>
-        <li data-thumb="img/gallery/thumb/the-cadence-clubhouse.jpg">
-            <img src="img/gallery/the-cadence-clubhouse.jpg" />
-        </li>
-    </ul>
-  </div>
-</div>
+ <div class="row">
+   <div class="col-md-12">
+       <div id="carousel" class="carousel slide" data-ride="carousel">
+           <div class="carousel-inner">
+               <div class="item active">
+                   <img src="img/gallery/the-cadence-outside.jpg">
+               </div>
+               <div class="item">
+                   <img src="img/gallery/the-cadence-pool.jpg">
+               </div>
+               <div class="item">
+                   <img src="img/gallery/the-cadence-unit.jpg">
+               </div>
+               <div class="item">
+                   <img src="img/gallery/the-cadence-bathroom.jpg">
+               </div>
+               <div class="item">
+                   <img src="img/gallery/the-cadence-clubhouse.jpg">
+               </div>
+           </div>
+       </div>
+     </div>
+ </div>
+ <div class="row">
+   <div class="col-md-10 col-md-offset-1">
+      <div class="clearfix">
+         <div id="thumbcarousel" class="carousel slide" data-interval="false">
+             <div class="carousel-inner">
+                 <div class="item active">
+                     <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img/gallery/thumb/the-cadence-outside.jpg"></div>
+                     <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img/gallery/thumb/the-cadence-pool.jpg"></div>
+                     <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/gallery/thumb/the-cadence-unit.jpg"></div>
+                     <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="img/gallery/thumb/the-cadence-bathroom.jpg"></div>
+                 <!-- </div><!-- /item --
+                 <div class="item"> -->
+                     <div data-target="#carousel" data-slide-to="4" class="thumb"><img src="img/gallery/thumb/the-cadence-clubhouse.jpg"></div>
+                     <!-- <div data-target="#carousel" data-slide-to="5" class="thumb"><img src="http://placehold.it/100/00ffcc/000&amp;text=Product+Image+6"></div>
+                     <div data-target="#carousel" data-slide-to="6" class="thumb"><img src="http://placehold.it/100/db371b/fff&amp;text=Product+Image+7"></div>
+                     <div data-target="#carousel" data-slide-to="7" class="thumb"><img src="http://placehold.it/100/feb8aa/000&amp;text=Product+Image+8"></div> -->
+                 </div><!-- /item -->
+             </div><!-- /carousel-inner -->
+             <!-- <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
+                 <span class="glyphicon glyphicon-chevron-left"></span>
+             </a>
+             <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
+                 <span class="glyphicon glyphicon-chevron-right"></span>
+             </a> -->
+         </div> <!-- /thumbcarousel -->
+       </div><!-- /clearfix -->
+   </div> <!-- /col-sm-6 -->
+</div> <!-- /container -->

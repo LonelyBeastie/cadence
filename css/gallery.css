@@ -1,21 +1,16 @@
-
-ul{
-	list-style: none outside none;
-  padding-left: 0;
-      margin: 0;
+/* CSS used here will be applied after bootstrap.css */
+.carousel {
+    margin-top: 20px;
 }
-.demo .item{
-  margin-bottom: 60px;
+.item .thumb {
+	width: 20%;
+	cursor: pointer;
+	float: left;
 }
-.content-slider li{
-  background-color: #ed3020;
-  text-align: center;
-  color: #FFF;
+.item .thumb img {
+	width: 90%;
+	margin: 2px;
 }
-.content-slider h3 {
-  margin: 0;
-  padding: 70px 0;
-}
-.demo{
-/*width: 800px;*/
+.item img {
+	width: 100%;
 }
