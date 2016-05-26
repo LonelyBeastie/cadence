@@ -1,26 +1,23 @@
-@font-face {
-	font-family: SerifRom;
-	src: url("../fonts/SerifRom");
+.font-opensans{
+	font-family: 'Open Sans', sans-serif;
 }
-@font-face {
-	font-family: MyriadPro-Regular;
-	src: url("../fonts/MyriadPro-Regular.otf");
+.font-opensanscondensed{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.font-sanchez{
+	font-family: 'Sanchez', serif;
 }
 .img-logo{
-	padding-top: 20px;
-	width: 13%;
+	padding-top: 11px;
+	width: 18%;
 	padding-bottom: 15px;
 }
-.main-name{ font-family: MyriadPro-Regular; }
-.header-blue-bar{
-  background-color: #2F4A64;
-  padding-top: 1px;
-  padding-bottom: 12px;
+/*.main-name{ font-family: MyriadPro-Regular; }*/
+.header-bar p{
+	padding-top: 15px;
+  padding-bottom: 15px;
 }
-h3.add-tel{
-  color: white;
-  font-family: SerifRom;
-}
+
 /*pic as background*/
 .background-img{
   background-size: cover;
@@ -44,13 +41,13 @@ h3.add-tel{
 .laugh{background-image: url("../img/laugh.jpg");}
 /*end pictures*/
 /*row pad*/
-.row-pad{padding-top: 15px;}
+.row-pad{padding-top: 10px;}
 .row-pad-big{padding-top: 30px;}
 .row-pad-bottom{padding-bottom: 20px;}
 .no-left-padding{padding-left: 0px;}
 /*height*/
 .half-big{ height: 215px; }
-.big{ height: 415px; }
+.big{ height: 340px; }
 .double-big{ height: 830px; }
 
 /* colors box */
@@ -65,14 +62,21 @@ h3.add-tel{
 .orange-text{ color: #c66c3c;}
 .blue-text{ color: #6a86b8;}
 .dark-blue-text{ color: #3d5d77;}
+.white-text{color: white;}
 
-.row-text{ color: white; }
+.letter-spacing-100{ letter-spacing: 3px;}
+.letter-spacing-50{ letter-spacing: 1.5px;}
+.line-spacing-22{ line-height: 22pt;}
+.base-font-size{font-size: 16px;}
+
 .box-o-text{
-  height: 350px;
-  width: 350px;
-  margin-top: 120px;
-  margin-left: 120px;
+  /*height: 350px;
+  width: 350px;*/
+  margin-top: 55px;
+  margin-left: 50px;
+	margin-right: 35px;
 }
+.box-o-text h2{margin-bottom: 23px;}
 #map{
   display: block;
   width: 100%;
