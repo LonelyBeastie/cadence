@@ -47,7 +47,7 @@
 .no-left-padding{padding-left: 0px;}
 /*height*/
 .half-big{ height: 215px; }
-.big{ height: 340px; }
+.big{ height: 340px; overflow: hidden;}
 .double-big{ height: 830px; }
 
 /* colors box */
