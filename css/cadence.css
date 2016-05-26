@@ -6,7 +6,11 @@
 	font-family: MyriadPro-Regular;
 	src: url("../fonts/MyriadPro-Regular.otf");
 }
-.img-logo{ padding-top: 20px; }
+.img-logo{
+	padding-top: 20px;
+	width: 13%;
+	padding-bottom: 15px;
+}
 .main-name{ font-family: MyriadPro-Regular; }
 .header-blue-bar{
   background-color: #2F4A64;
@@ -77,3 +81,4 @@ h3.add-tel{
 /*footer stuff*/
 footer{ height: 80px; }
 .footer-pad{padding-top: 25px;}
+.equal-op{width: 65px; padding-left: 5px; }
