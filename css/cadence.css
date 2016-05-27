@@ -78,11 +78,11 @@ p.site.font-opensanscondensed{
 .unit{background-image: url("../img/the-cadence-unit.jpg");}
 .bathroom{background-image: url("../img/the-cadence-bathroom.jpg");}
 
-.woman-pool{background-image: url("../img/woman-pool.jpg");}
-.band{background-image: url("../img/band.jpg");}
-.yoga{background-image: url("../img/yoga.jpg");}
-.coffee{background-image: url("../img/coffee.jpg");}
-.laugh{background-image: url("../img/laugh.jpg");}
+.woman-pool{background-image: url("../img/fun-woman-pool.jpg");}
+.band{background-image: url("../img/fun-band.jpg");}
+.yoga{background-image: url("../img/fun-yoga.jpg");}
+.coffee{background-image: url("../img/fun-coffee.jpg");}
+.laugh{background-image: url("../img/fun-laugh.jpg");}
 
 .siteplan{background-image: url("../img/siteplan.png");}
 .floorplan{width: 100%;}
@@ -162,14 +162,12 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+	.big-horizontal{ width: 1000px; }
+	.img-siteplan{ width: 1000px; }
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	.big-horizontal{ width: 1735px; }
-	.img-siteplan{
-		width: 1735px;
-		height: 1000px;
-	}
+	.big-horizontal{ width: 1300px; }
+	.img-siteplan{ width: 1300px; }
 }
