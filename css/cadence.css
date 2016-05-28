@@ -22,9 +22,9 @@
 }
 .close-me{
 	position: absolute;
-	top: 1px;
-	right: 0px;
-	/*padding-right: 25px;*/
+	top: -6px;
+	right: -1px;
+	height: 81px;
 }
 .menu-btn{
 	position: absolute;
@@ -146,13 +146,13 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-  .close-me{padding-right: 225px;}
+  .close-me{padding-right: 145px;}
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-	.close-me{padding-right: 25px;}
+	.close-me{padding-right: 0px;}
 
 }
 
