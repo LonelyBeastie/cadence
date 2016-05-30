@@ -13,10 +13,11 @@
 	text-decoration: none;
 }
 .inner-menu{
-	padding-top: 80px;
-	padding-left: 90px;
+	padding-top: 40px;
+	padding-left: 45px;
 }
 .inner-menu h2{
+	font-size: 25px;
 	padding-bottom: 20px;
 	font-weight: bold;
 }
@@ -98,6 +99,7 @@ p.site.font-opensanscondensed{
 /*height*/
 .half-big{ height: 215px; }
 .background-img.big{ height: 275px;}
+.col-sm-5.big{height: inherit;}
 .big{ height: 415px; overflow: hidden;}
 .big-other{ height: 415px;}
 .double-big{ height: 830px; }
@@ -129,6 +131,7 @@ p.site.font-opensanscondensed{
   padding-top: 55px;
   padding-left: 50px;
 	padding-right: 35px;
+	padding-bottom: 70px;
 }
 .box-o-text-other{
   padding-top: 55px;
@@ -151,7 +154,11 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 321px) {
   .close-me{padding-right: 182px;}
-	.inner-menu{padding-left: 50px;}
+	.inner-menu{
+		padding-top: 40px;
+		padding-left: 50px;
+	}
+	.inner-menu h2{ font-size: 30px; }
 	/*.big-horizontal{ width: 300px; }*/
 	/*.img-siteplan{ width: 300px; }*/
 }
@@ -166,7 +173,10 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 	.background-img.big{ height: 415px;}
-	/*.big-horizontal{ width: 700px; }*/
+	.col-sm-5.big{height: 415px;}
+	.box-o-text{ padding-bottom: inherit; }
+	.inner-menu{ padding-top: 80px;}
+
 	/*.img-siteplan{ width: 700px; }*/
 }
 
