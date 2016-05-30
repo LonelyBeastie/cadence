@@ -97,6 +97,7 @@ p.site.font-opensanscondensed{
 .no-left-padding{padding-left: 0px;}
 /*height*/
 .half-big{ height: 215px; }
+.background-img.big{ height: 275px;}
 .big{ height: 415px; overflow: hidden;}
 .big-other{ height: 415px;}
 .double-big{ height: 830px; }
@@ -164,6 +165,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+	.background-img.big{ height: 415px;}
 	/*.big-horizontal{ width: 700px; }*/
 	/*.img-siteplan{ width: 700px; }*/
 }
