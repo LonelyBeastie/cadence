@@ -147,6 +147,8 @@ p.site.font-opensanscondensed{
 /*footer stuff*/
 footer{height: 80px;}
 footer p{ font-size: 14px;}
+footer p a{ color: #3d5d77;}
+footer .fa.fa-circle{ font-size: 7px;}
 a.no-dec, a.no-dec:hover {text-decoration: none;}
 .footer-pad{margin-top: 25px;}
 .equal-op{width: 65px; padding-left: 5px; }
