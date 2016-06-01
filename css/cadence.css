@@ -107,7 +107,7 @@ p.site.font-opensanscondensed{
 .row-pad-big{padding-top: 30px;}
 .row-pad-bottom{padding-bottom: 20px;}
 .no-left-padding{padding-left: 0px;}
-.no-right-padding{padding-right: 0px;}
+.no-padding-col{padding-left: 0px; padding-right: 0px;}
 /*height*/
 .half-big{ height: 215px; }
 .background-img.big{ height: 275px;}
@@ -190,7 +190,8 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 	.col-sm-5.big{height: 415px;}
 	.box-o-text{ padding-bottom: inherit; }
 	.inner-menu{ padding-top: 80px;}
-
+	.left-padding-col{padding-left: 15px;}
+	.right-padding-col{padding-right: 15px;}
 	/*.img-siteplan{ width: 700px; }*/
 }
 
