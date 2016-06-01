@@ -70,18 +70,29 @@ p.site.font-opensanscondensed{
   background-repeat: no-repeat;
   background-position: center center;
 }
+.background-img-top{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 /*** Row stuff ***/
 /*picture*/
 .wood{background-image: url("../img/background.png");}
 
-.outside{background-image: url("../img/the-cadence-outside.jpeg");}
-.clubhouse{background-image: url("../img/the-cadence-clubhouse.jpg");}
-.pool{background-image: url("../img/the-cadence-pool.jpg");}
-.unit{background-image: url("../img/the-cadence-unit.jpg");}
-.bathroom{background-image: url("../img/the-cadence-bathroom.jpg");}
+.outside{background-image: url("../img/live_1.jpg");}
+.unit{background-image: url("../img/live_2.jpg");}
+.bathroom{background-image: url("../img/live_3.jpg");}
+.clubhouse{background-image: url("../img/live_4.jpg");}
+.pool{background-image: url("../img/live_5.jpg");}
 
-.woman-pool{background-image: url("../img/fun-woman-pool.jpg");}
-.band{background-image: url("../img/fun-band.jpg");}
+.woman-pool{background-image: url("../img/relax_1.jpg");}
+.relax_3{background-image: url("../img/relax_3.jpg");}
+.relax_4{background-image: url("../img/relax_4.jpg");}
+
+.band{background-image: url("../img/play_1.jpg");}
+.play_2{background-image: url("../img/play_2.jpg");}
+.play_4{background-image: url("../img/play_4.jpg");}
+
 .yoga{background-image: url("../img/fun-yoga.jpg");}
 .coffee{background-image: url("../img/fun-coffee.jpg");}
 .laugh{background-image: url("../img/fun-laugh.jpg");}
@@ -96,6 +107,7 @@ p.site.font-opensanscondensed{
 .row-pad-big{padding-top: 30px;}
 .row-pad-bottom{padding-bottom: 20px;}
 .no-left-padding{padding-left: 0px;}
+.no-right-padding{padding-right: 0px;}
 /*height*/
 .half-big{ height: 215px; }
 .background-img.big{ height: 275px;}
