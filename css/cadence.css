@@ -84,18 +84,30 @@ p.site.font-opensanscondensed{
 .bathroom{background-image: url("../img/live_3.jpg");}
 .clubhouse{background-image: url("../img/live_4.jpg");}
 .pool{background-image: url("../img/live_5.jpg");}
-
-.woman-pool{background-image: url("../img/relax_1.jpg");}
-.relax_3{background-image: url("../img/relax_3.jpg");}
-.relax_4{background-image: url("../img/relax_4.jpg");}
-
 .band{background-image: url("../img/play_1.jpg");}
-.play_2{background-image: url("../img/play_2.jpg");}
-.play_4{background-image: url("../img/play_4.jpg");}
-
+.woman-pool{background-image: url("../img/relax_1.jpg");}
 .yoga{background-image: url("../img/fun-yoga.jpg");}
 .coffee{background-image: url("../img/fun-coffee.jpg");}
 .laugh{background-image: url("../img/fun-laugh.jpg");}
+
+.explore_1{background-image: url("../img/index/explore_1.png");}
+.explore_2{background-image: url("../img/index/explore_2.png");}
+.explore_3{background-image: url("../img/index/explore_3.png");}
+.indulge_1{background-image: url("../img/index/indulge_1.png");}
+.indulge_2{background-image: url("../img/index/indulge_2.png");}
+.indulge_3{background-image: url("../img/index/indulge_3.png");}
+.live_1{background-image: url("../img/index/live_1.png");}
+.live_2{background-image: url("../img/index/live_2.png");}
+.live_3{background-image: url("../img/index/live_3.png");}
+.live_4{background-image: url("../img/index/live_4.png");}
+.play_1{background-image: url("../img/index/play_1.png");}
+.play_3{background-image: url("../img/index/play_3.png");}
+.play_2{background-image: url("../img/index/play_2.png");}
+.play_4{background-image: url("../img/index/play_4.png");}
+.relax_1{background-image: url("../img/index/relax_1.png");}
+.relax_2{background-image: url("../img/index/relax_2.png");}
+.relax_3{background-image: url("../img/index/relax_3.png");}
+.relax_4{background-image: url("../img/index/relax_4.png");}
 
 .siteplan{background-image: url("../img/siteplan.png");}
 .floorplan{width: 100%;}
