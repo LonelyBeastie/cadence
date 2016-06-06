@@ -2,7 +2,7 @@
 	/*position: absolute;*/
 	top: 1px;
 	left: 0px;
-	width: 550px;
+	width: 410px;
 	height: 100%;
 	z-index: 9999;
 	opacity: 0.85;
@@ -26,13 +26,13 @@
 	top: -6px;
 	right: -1px;
 	height: 62px;
-	padding-right: 220px;
+	padding-right: 88px;
 }
 .menu-btn{
 	position: absolute;
 	top: 1px;
 	left: 0px;
-	width: 62px;
+	width: 55px;
 }
 .font-opensans{
 	font-family: 'Open Sans', sans-serif;
@@ -179,12 +179,12 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 321px) {
-  .close-me{padding-right: 182px;}
+  .close-me{padding-right: 32px;}
 	.inner-menu{
 		padding-top: 40px;
 		padding-left: 50px;
 	}
-	.inner-menu h2{ font-size: 30px; }
+	/*.inner-menu h2{ font-size: 30px; }*/
 	/*.big-horizontal{ width: 300px; }*/
 	/*.img-siteplan{ width: 300px; }*/
 }
