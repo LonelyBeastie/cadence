@@ -168,9 +168,7 @@ p.site.font-opensanscondensed{
 	padding-right: 35px;
 	padding-bottom: 70px;
 }
-.for-amenities{
-	padding: 10px 0 0 0;
-}
+.for-amenities{padding: 10px 0 10px 0;}
 .box-o-text-other{
   padding-top: 55px;
   padding-left: 50px;
@@ -218,13 +216,16 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 	.inner-menu{ padding-top: 80px;}
 	.left-padding-col{padding-left: 15px;}
 	.right-padding-col{padding-right: 15px;}
+
+	.big-amenities{ height: 415px; overflow: hidden;}
+	.three-fourths-big-amenities{ height: 300px; }
+	.for-amenities{padding: 10px 0 0 0;}
 	/*.img-siteplan{ width: 700px; }*/
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	/*.big-horizontal{ width: 950px; }*/
-	/*.img-siteplan{ width: 950px; }*/
+	.big-amenities{ height: 345px;}
 }
 
 /* Large Devices, Wide Screens */
