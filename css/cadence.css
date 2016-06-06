@@ -216,7 +216,11 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 	.inner-menu{ padding-top: 80px;}
 	.left-padding-col{padding-left: 15px;}
 	.right-padding-col{padding-right: 15px;}
-
+	.col-sm-6.right-padding-col{
+		width: 49%;
+		margin-right: 7px;
+		padding-right: 0px;
+	}
 	.big-amenities{ height: 415px; overflow: hidden;}
 	.three-fourths-big-amenities{ height: 300px; }
 	.for-amenities{padding: 10px 0 0 0;}
@@ -226,10 +230,12 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 	.big-amenities{ height: 345px;}
+	.col-sm-6.right-padding-col{margin-right: 9px;}
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	.col-sm-6.right-padding-col{margin-right: 11px;}
 	/*.big-horizontal{ width: 1200px; }*/
 	/*.img-siteplan{ width: 1200px; }*/
 }
