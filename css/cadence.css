@@ -75,6 +75,11 @@ p.site.font-opensanscondensed{
   background-repeat: no-repeat;
   background-position: top center;
 }
+.background-img-left{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
 /*** Row stuff ***/
 /*picture*/
 .wood{background-image: url("../img/background.png");}
