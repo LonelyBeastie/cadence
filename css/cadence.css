@@ -109,6 +109,11 @@ p.site.font-opensanscondensed{
 .relax_3{background-image: url("../img/index/relax_3.png");}
 .relax_4{background-image: url("../img/index/relax_4.png");}
 
+.long_explore_2{background-image: url("../img/long_explore_2.png");}
+.long_gallery_2_full{background-image: url("../img/long_gallery_2_full.png");}
+.long_gallery_4_full{background-image: url("../img/long_gallery_4_full.png");}
+.long_play_2{background-image: url("../img/long_play_2.png");}
+
 .siteplan{background-image: url("../img/siteplan.png");}
 .floorplan{width: 100%;}
 .img-siteplan{ width: 100%; }
@@ -121,11 +126,12 @@ p.site.font-opensanscondensed{
 .no-left-padding{padding-left: 0px;}
 .no-padding-col{padding-left: 0px; padding-right: 0px;}
 /*height*/
-.half-big{ height: 215px; }
 .background-img.big{ height: 275px;}
 .col-sm-5.big{height: inherit;}
 .big{ height: 415px; overflow: hidden;}
 .big-other{ height: 415px;}
+.half-big{ height: 215px; }
+.three-fourths-big{ height: 300px; }
 .double-big{ height: 830px; }
 
 /* colors box */
@@ -156,6 +162,9 @@ p.site.font-opensanscondensed{
   padding-left: 50px;
 	padding-right: 35px;
 	padding-bottom: 70px;
+}
+.for-amenities{
+	padding: 10px 0 0 0;
 }
 .box-o-text-other{
   padding-top: 55px;
