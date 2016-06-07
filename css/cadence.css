@@ -135,7 +135,7 @@ p.site.font-opensanscondensed{
 .col-sm-5.big{height: inherit;}
 .big{ height: 415px; overflow: hidden;}
 .big-other{ height: 415px;}
-.half-big{ height: 233px; }
+.half-big{ height: 75px; }
 .three-fourths-big{ height: 300px; }
 .double-big{ height: 830px; }
 
@@ -188,7 +188,7 @@ footer .fa.fa-circle{ font-size: 7px;}
 a.no-dec, a.no-dec:hover {text-decoration: none;}
 .footer-pad{margin-top: 25px;}
 .equal-op{width: 65px; padding-left: 5px; }
-
+.col-sm-6.right-padding-col{margin-bottom: 10px;}
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 321px) {
   .close-me{padding-right: 32px;}
@@ -196,6 +196,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 		padding-top: 40px;
 		padding-left: 50px;
 	}
+	/*.row.row-pad .col-sm-6.big-amenities{margin-top: 15px;}*/
 	/*.inner-menu h2{ font-size: 30px; }*/
 	/*.big-horizontal{ width: 300px; }*/
 	/*.img-siteplan{ width: 300px; }*/
@@ -220,10 +221,13 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 		width: 49%;
 		margin-right: 7px;
 		padding-right: 0px;
+		margin-bottom: 0px;
 	}
 	.big-amenities{ height: 415px; overflow: hidden;}
 	.three-fourths-big-amenities{ height: 300px; }
 	.for-amenities{padding: 10px 0 0 0;}
+	.half-big{ height: 150px; }
+	/*.row.row-pad .col-sm-6.big-amenities{margin-top: 0px;}*/
 	/*.img-siteplan{ width: 700px; }*/
 }
 
@@ -236,6 +240,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 	.col-sm-6 .box-o-text.for-amenities.relax{ padding-top: 5px;}
 	.col-sm-6 .box-o-text.for-amenities.live{ padding-top: 28px;}
 	.col-sm-6 .box-o-text.for-amenities.indulge{ padding-top: 19px;}
+	.half-big{ height: 193px; }
 }
 
 /* Large Devices, Wide Screens */
@@ -245,6 +250,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 	.col-sm-6 .box-o-text.for-amenities.live{ padding-top: 28px;}
 	.col-sm-6 .box-o-text.for-amenities.indulge{ padding-top: 19px;}
 	.col-sm-6.right-padding-col{margin-right: 11px;}
+	.half-big{ height: 233px; }
 	/*.big-horizontal{ width: 1200px; }*/
 	/*.img-siteplan{ width: 1200px; }*/
 }
