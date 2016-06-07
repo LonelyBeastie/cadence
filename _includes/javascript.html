@@ -1,8 +1,13 @@
-
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+{% if page.page_name == "neighborhood" %}
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script type="text/javascript" src="js/gmap.js"></script>
+	<script type="text/javascript" src="js/neighborhood.js"></script>
+{% elsif page.page_name == "siteplan" %}
 	<script type="text/javascript" src="js/imageMapResizer.min.js "></script>
-	<script type="text/javascript">
-
-			imageMapResize();
-
-		</script>
-	<!-- <script type="text/javascript" src="js/siteplan.js "></script> -->
+	<script type="text/javascript" src="js/siteplan.js "></script>
+{% endif %}
