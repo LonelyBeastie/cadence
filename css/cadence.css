@@ -231,13 +231,19 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 @media only screen and (min-width : 992px) {
 	.big-amenities{ height: 345px;}
 	.col-sm-6.right-padding-col{margin-right: 9px;}
+
+	.col-sm-6 .box-o-text.for-amenities{padding-top: 23px;}
+	.col-sm-6 .box-o-text.for-amenities.relax{ padding-top: 5px;}
+	.col-sm-6 .box-o-text.for-amenities.live{ padding-top: 28px;}
+	.col-sm-6 .box-o-text.for-amenities.indulge{ padding-top: 19px;}
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	.col-sm-6 .box-o-text.for-amenities{
-		padding-top: 23px;
-	}
+	.col-sm-6 .box-o-text.for-amenities{padding-top: 23px;}
+	.col-sm-6 .box-o-text.for-amenities.relax{padding-top: 23px;}
+	.col-sm-6 .box-o-text.for-amenities.live{ padding-top: 28px;}
+	.col-sm-6 .box-o-text.for-amenities.indulge{ padding-top: 19px;}
 	.col-sm-6.right-padding-col{margin-right: 11px;}
 	/*.big-horizontal{ width: 1200px; }*/
 	/*.img-siteplan{ width: 1200px; }*/
