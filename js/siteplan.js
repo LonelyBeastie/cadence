@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $('map').imageMapResize();
+    $('#sitemap-map').imageMapResize();
 });
