@@ -235,6 +235,9 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	.col-sm-6 .box-o-text.for-amenities{
+		padding-top: 20px;
+	}
 	.col-sm-6.right-padding-col{margin-right: 11px;}
 	/*.big-horizontal{ width: 1200px; }*/
 	/*.img-siteplan{ width: 1200px; }*/
