@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('map').imageMapResize();
-    $('.img-siteplan').width('2000px');
-    $('.img-siteplan').width('100%');
-    console.log('resized');
+    $('.img-siteplan').click(function() {
+      $('map').imageMapResize();
+    });
 });
