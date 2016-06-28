@@ -12,7 +12,18 @@
     <p class="text-center white-text letter-spacing-2 base-font-size font-sanchez"><a href="tel:6152271600" class="white-text no-dec">615.227.1600</a> <br class="visible-xs">• 1600 McGavock Street • <br class="visible-xs"><a href="mailto:TheCadence@LincolnApts.com?subject=Tell%20me%20more%20about%20The%20Cadence!" class="white-text no-dec">TheCadence@LincolnApts.com</a></p>
   </div>
   <div class="header-bar dark-blue visible-sm visible-md visible-lg hidden-xs">
-    <p class="text-center white-text letter-spacing-2 base-font-size font-sanchez no-bottom-padding-or-margin"><a href="amenities.html" class="white-text no-dec">AMENITIES & FEATURES</a> • <a href="neighborhood.html" class="white-text no-dec">NEIGHBORHOOD</a> • <a href="find.html" class="white-text no-dec">FIND A HOME</a> • <a href="siteplan.html" class="white-text no-dec">SITE PLAN</a></p>
-    <p class="text-center white-text letter-spacing-2 base-font-size font-sanchez"><a href="gallery.html" class="white-text no-dec">Gallery</a> • <a href="tour.html" class="white-text no-dec">Virtual Tour</a> • <a href="guest_card.html" class="white-text no-dec">Guest Card</a> • <a href="apply.html" class="white-text no-dec">Apply Now</a> • <a href="portal.html" class="white-text no-dec">Resident Portal</a></p>
+    <p class="text-center white-text letter-spacing-2 base-font-size font-sanchez no-bottom-padding-or-margin">
+      <a href="amenities.html" class="white-text no-dec {% if page.title == 'amenities' %}current{% endif %}">AMENITIES & FEATURES</a> •
+      <a href="neighborhood.html" class="white-text no-dec {% if page.title == 'neighborhood' %}current{% endif %}">NEIGHBORHOOD</a> •
+      <a href="find.html" class="white-text no-dec {% if page.title == 'find' %}current{% endif %}">FIND A HOME</a> •
+      <a href="siteplan.html" class="white-text no-dec {% if page.title == 'siteplan' %}current{% endif %}">SITE PLAN</a>
+    </p>
+    <p class="text-center white-text letter-spacing-2 base-font-size font-sanchez">
+      <a href="gallery.html" class="white-text no-dec {% if page.title == 'gallery' %}current{% endif %}">Gallery</a> •
+      <a href="tour.html" class="white-text no-dec {% if page.title == 'tour' %}current{% endif %}">Virtual Tour</a> •
+      <a href="guest_card.html" class="white-text no-dec {% if page.title == 'guest_card' %}current{% endif %}">Guest Card</a> •
+      <a target="_blank" href="https://thecadence.prospectportal.com/Apartments/module/application_authentication/property[id]/249406/show_in_popup/false/kill_session/1/" class="white-text no-dec {% if page.title == 'apply' %}current{% endif %}">Apply Now</a> •
+      <a href="portal.html" class="white-text no-dec {% if page.title == 'portal' %}current{% endif %}">Resident Portal</a>
+    </p>
   </div>
 </header>

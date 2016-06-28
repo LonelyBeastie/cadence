@@ -61,6 +61,9 @@
 .header-bar.dark-blue a:focus, a:hover {
   color: #c66c3c;
 }
+.header-bar p a.current {
+  color: #c66c3c;
+}
 p.site.font-sanchez{
 	font-size: 18px;
 	padding-bottom: 15px;
