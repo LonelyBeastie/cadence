@@ -58,6 +58,9 @@
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
+.header-bar.dark-blue a:focus, a:hover {
+  color: #c66c3c;
+}
 p.site.font-sanchez{
 	font-size: 18px;
 	padding-bottom: 15px;
