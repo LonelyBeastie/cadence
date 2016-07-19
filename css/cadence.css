@@ -202,6 +202,14 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 .footer-pad{margin-top: 25px;}
 .equal-op{width: 65px; padding-left: 5px; }
 .col-sm-6.right-padding-col{margin-bottom: 10px;}
+
+/*Modal*/
+.modal-header { border-bottom: none;}
+.modal-footer {
+	border-top: none;
+	padding-bottom: 37px;
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 321px) {
   .close-me{padding-right: 0px;}
