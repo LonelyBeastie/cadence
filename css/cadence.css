@@ -209,7 +209,16 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 	border-top: none;
 	padding-bottom: 37px;
 }
-
+.upcase{
+	text-transform: uppercase;
+}
+#specialModal{
+	top: 50%;
+	/*left: 50%;*/
+	position: absolute;
+	margin-top: -125px;
+	/*margin-left: -300px;*/
+}
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 321px) {
   .close-me{padding-right: 0px;}
