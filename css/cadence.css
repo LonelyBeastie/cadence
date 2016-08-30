@@ -193,6 +193,9 @@ p.site.font-opensanscondensed{
 div.blue-before-footer{
 	margin-top: 25px;
 }
+.do-not-show-me{
+	display: none;
+}
 /*footer stuff*/
 footer{height: 80px;}
 footer p{ font-size: 14px;}
