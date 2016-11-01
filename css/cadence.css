@@ -92,6 +92,13 @@ p.site.font-opensanscondensed{
 }
 /*** Row stuff ***/
 /*picture*/
+.page-tear{
+	position: absolute;
+	width: 210px;
+	/*height: 100%;*/
+	top: 0;
+	right: 0;
+}
 .wood{background-image: url("../img/background.png");}
 
 .outside{background-image: url("../img/live_1.jpg");}
